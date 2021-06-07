@@ -3,4 +3,7 @@
     <string name="messenger">messenger</string>
     <string name="chats">chats</string>
     <string name="search_for_contact">search_for_contact</string>
+    <string name="message">message</string>
+    <string name="enter_phone_number">enter phone number</string>
+    <string name="send">send</string>
 </resources>
