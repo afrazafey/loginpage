@@ -32,16 +32,14 @@ public class MainActivity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                validate();
+                validate(Name.getText().toString(),Password.getText().toString());
             }
         });
 
     }
 
-    private void validate(){
-        String userName = String.valueOf(Name.getText());
-        String userPassword = String.valueOf(Password.getText());
-        if ((userName == "Admin") && (userPassword == "1234")){
+    private void validate(String userName, String userPassword){
+        if ((userName.equals("Admin")) && (userPassword.equals("1234"))){
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             startActivity(intent);
 
