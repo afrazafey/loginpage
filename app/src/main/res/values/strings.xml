@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">login page</string>
+    <string name="messenger">messenger</string>
+    <string name="chats">chats</string>
+    <string name="search_for_contact">search_for_contact</string>
+</resources>
