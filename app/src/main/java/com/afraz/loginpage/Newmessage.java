@@ -23,7 +23,7 @@ public class Newmessage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_newmessage);
 
         txt_message = findViewById(R.id.txt_message);
         txt_pNumber = findViewById(R.id.txt_phone_number);
